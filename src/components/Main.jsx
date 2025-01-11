@@ -1,4 +1,5 @@
 //Displays the image of the day gathered from the api //
+import React from 'react';
 
 export default function Main(props) {
   const { data } = props;

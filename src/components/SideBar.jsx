@@ -1,4 +1,7 @@
 // Sidebar which displays the full description, date and title. //
+
+import React from 'react';
+
 export default function Sidebar(props) {
   const { handleToggleModal, data } = props;
   return (

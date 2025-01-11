@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState, } from "react";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
@@ -11,14 +12,14 @@ function App() {
   function handleToggleModal() {
     setShowModal(!showModal);
   }
-  // Calling the api //
+  // Calling the api 
   useEffect(() => {
     async function fetchAPIData() {
       const NASA_KEY = import.meta.env.VITE_NASA_API_KEY
       const url =
         "https://api.nasa.gov/planetary/apod" + `?api_key=${NASA_KEY}`;
 
-        // Added to cache information //
+        //Added to cache information"
 
         const today = (new Date()).toDateString()
         const localKey = `NASA-${today}`
@@ -41,6 +42,7 @@ function App() {
     }
     fetchAPIData()
   }, []);
+
   return (
     <>
       {data ? (

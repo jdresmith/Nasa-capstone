@@ -1,6 +1,6 @@
 # NASA CAPSTONE 
 
-This is a React app created to display the picture of the day using the APOD api from the Nasa App.
+This is a React app created to display the picture of the day using the APOD api from the NASA's website. The data from the project all stems from the NASA api.
 
 To get the app up and running please do as follows:
 

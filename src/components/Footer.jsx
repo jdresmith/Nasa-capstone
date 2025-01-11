@@ -1,5 +1,7 @@
 // A footer that displays the title of the given image of the day, info button is used to display description and information to users//
 
+import React from 'react';
+
 export default function Footer(props) {
   const { showModal, handleToggleModal, data } = props;
   return (
