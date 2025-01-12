@@ -13,3 +13,7 @@ To get the app up and running please do as follows:
 # npm run dev
 
 Runs the app in the development mode. Open "http://localhost:5173/" to view it in the browser. The page will relaod when changes are made to it. Errors will also be loaded into the console.
+
+# APOD api
+
+This project gathers data through the APOD api from NASA's website. It is one of the most popular features of their website.
